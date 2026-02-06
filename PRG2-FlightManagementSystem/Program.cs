@@ -369,6 +369,7 @@ void AssignBoardingGateToFlight()
             else if (updateStatus == "N")
             {
                 // Do nothing, just continue
+                flight.Status = "On Time";
                 break;
             }
             else
@@ -398,7 +399,7 @@ void CreateFlight()
                 Console.WriteLine("Flight Number cannot be empty. Please try again.");
                 continue;
             }
-            else if (!System.Text.RegularExpressions.Regex.IsMatch(flightNo, @"^[a-zA-Z]{2}\s?\d{3}$")) //Regex: Ensures flight number is in the format of 2 letters followed by 3 digits
+            else if (!System.Text.RegularExpressions.Regex.IsMatch(flightNo, @"^[A-Z]{2}\s?\d{3}$")) //Regex: Ensures flight number is in the format of 2 letters followed by 3 digits
             {
                 Console.WriteLine("Invalid Flight Number format. Please try again.");
                 continue;
@@ -509,7 +510,7 @@ void CreateFlight()
             if (airline.AddFlight(newFlight))
             {
                 // Store special request code
-                flightSpecialRequestCodes[flightNo] = specialRequestCode == "NONE" ? "N.A" : specialRequestCode;
+                flightSpecialRequestCodes[flightNo] = specialRequestCode == "" ? "N.A" : specialRequestCode;
 
                 // Update flights.csv file
                 using (StreamWriter writer = File.AppendText("flights.csv"))

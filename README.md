@@ -5,8 +5,8 @@ A console-based simulated flight management system developed in C# as part of a 
 ## 📋 Project Information
 
 **Course**: Programming 2 (PRG2)  
-**Student**: Xander Yeo Kai Kiat (S10259198) - Features 1, 4, 7, 8  
-**Partner**: Teo Yun Nise Kieira (S10259004) - Features 2, 3, 5, 6, 9
+**Student**: Xander Yeo Kai Kiat
+**Partner**: Teo Yun Nise Kieira
 
 ## 🎯 Features
 
@@ -153,7 +153,7 @@ git clone https://github.com/xanyeooooo/PRG2_Assignment.git
 
 2. Navigate to the project directory:
 ```bash
-cd PRG2_Assignment/S10259198_PRG2Assignment
+cd PRG2_Assignment/PRG2_Assignment
 ```
 
 3. Build the project:
