@@ -1,6 +1,6 @@
-# Changi Airport Terminal 5 Flight Management System
+# Changi Airport Terminal 5 Flight Management System (Academic Assignment)
 
-A comprehensive console-based flight management system developed in C# for managing airline operations, flights, and boarding gates at Changi Airport Terminal 5.
+A console-based simulated flight management system developed in C# as part of a programming assignment. The system models airline operations, flights, and boarding gate management for Changi Airport Terminal 5 in an academic context and is not associated with real-world airport systems.
 
 ## 📋 Project Information
 
