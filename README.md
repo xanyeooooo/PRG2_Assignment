@@ -2,12 +2,6 @@
 
 A console-based simulated flight management system developed in C# as part of a programming assignment. The system models airline operations, flights, and boarding gate management for Changi Airport Terminal 5 in an academic context and is not associated with real-world airport systems.
 
-## 📋 Project Information
-
-**Course**: Programming 2 (PRG2)  
-**Student**: Xander Yeo Kai Kiat
-**Partner**: Teo Yun Nise Kieira
-
 ## 🎯 Features
 
 ### Core Features
